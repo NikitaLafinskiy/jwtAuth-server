@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.12",
+    "nodemon": "^2.0.15",
+    "ormconfig.json": "^1.0.2",
+    "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^17.0.23",
+    "@types/nodemailer": "^6.4.4",
+    "@types/uuid": "^8.3.4",
+    "@types/yup": "^0.29.13",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.3",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  }
+}
